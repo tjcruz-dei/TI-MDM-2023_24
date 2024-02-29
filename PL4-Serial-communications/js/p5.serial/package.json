@@ -1,0 +1,15 @@
+{
+  "name": "serial-communication-p5.serial",
+  "version": "1.0.0",
+  "description": "Serial communication with javascript and arduino (using p5.serial library)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node node_modules/p5.serialserver/startserver.js"
+  },
+  "author": "Sérgio M. Rebelo <sergiorebelo@me.com> (http://sergiorebelo.work/)",
+  "license": "ISC",
+  "dependencies": {
+    "p5.serialserver": "^0.0.34"
+  }
+}
