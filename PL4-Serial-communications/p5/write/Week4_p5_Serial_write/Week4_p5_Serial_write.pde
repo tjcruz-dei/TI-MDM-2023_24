@@ -1,5 +1,5 @@
 /**
- * Tecnologias de Interface, Winter 2023
+ * Tecnologias de Interface
  * Universidade de Coimbra
  * MSc in Design and Multimedia
  *
