@@ -13,7 +13,7 @@ Arduino controls LEDs based on the state of a pushbutton (pull-down). _The LED m
 - one pushbutton
 - jumpers
 
-## Exercices
+## Exercises
 The LED will turn ON while you have the finger on the button. 
 
 1. Connecting a pushbutton to the Arduino (see [Week2_Simple_Pushbutton_led](https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL2-Pushbutton/Week2_Simple_Pushbutton_led))
