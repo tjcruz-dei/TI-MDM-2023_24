@@ -19,6 +19,7 @@ See [Week4 Exercise 1 (https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL
 
 (Same circuit and program used for byte oriented reads: [https://github.com/tjcruz-dei/TI-MDM-2023_24/blob/main/PL4-Serial-communications/p5/arduino/read/Week4-Serial-Read-byte-oriented-Example/Week4-Serial-Read-byte-oriented-Example.ino)
 ]
+
 Make a Processing program that draws a black circle with 100px radius, centered within a 500x500px window.
 
 When you click the circle make it change its color between black and red, alternately.
