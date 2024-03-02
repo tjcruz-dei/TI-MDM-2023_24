@@ -15,7 +15,7 @@
 
 See [Week4 Exercise 1 (https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL4-Serial-communications/Exercises/Exercise1/Exercise1.ino))
 
-##Exercise 2
+## Exercise 2
 
 (Same circuit and program used for byte oriented reads: [https://github.com/tjcruz-dei/TI-MDM-2023_24/blob/main/PL4-Serial-communications/p5/arduino/read/Week4-Serial-Read-byte-oriented-Example/Week4-Serial-Read-byte-oriented-Example.ino)
 ]
