@@ -29,4 +29,3 @@ Also, make the program write the “H” and “L” strings alternately to the 
 Program the Arduino to control the LED on pin 13 (the embedded LED), using the information sent via serial port.
 
 Processing code [Week4 Exercise 2](https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL4-Serial-communications/Exercises/Exercise2/Exercise2.pde)
-
