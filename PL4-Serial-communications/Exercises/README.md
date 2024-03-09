@@ -29,3 +29,16 @@ Also, make the program write the “H” and “L” strings alternately to the 
 Program the Arduino to control the LED on pin 13 (the embedded LED), using the information sent via serial port.
 
 Processing code [Week4 Exercise 2](https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL4-Serial-communications/Exercises/Exercise2/Exercise2.pde)
+
+
+## Homework Challenge 1
+
+Assemble an Arduino circuit with two pushbuttons - the circuit is quite simple, using two buttons wired to pins 8 and 9.
+
+Create a program in Processing with a 1024x1024 window
+
+The Arduino buttons must control the displacement of a circle which is continuously moving 
+forward (so, the buttons will basically steer left and right)
+
+Code [Homework Challenge 1](https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL4-Serial-communications/Exercises/Homework_Challenge)
+
