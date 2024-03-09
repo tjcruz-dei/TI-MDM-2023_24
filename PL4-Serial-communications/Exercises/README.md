@@ -41,4 +41,3 @@ The Arduino buttons must control the displacement of a circle which is continuou
 forward (so, the buttons will basically steer left and right)
 
 Code [Homework Challenge 1](https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL4-Serial-communications/Exercises/Homework_Challenge)
-
