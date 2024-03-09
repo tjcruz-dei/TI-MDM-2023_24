@@ -40,4 +40,4 @@ Create a program in Processing with a 1024x1024 window
 The Arduino buttons must control the displacement of a circle which is continuously moving 
 forward (so, the buttons will basically steer left and right)
 
-Code [Homework Challenge 1](https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL4-Serial-communications/Exercises/Homework_Challenge)
+Code [Homework Challenge 1](https://github.com/tjcruz-dei/TI-MDM-2023_24/tree/main/PL4-Serial-communications/Exercises/Homework%20Challenge%201)
