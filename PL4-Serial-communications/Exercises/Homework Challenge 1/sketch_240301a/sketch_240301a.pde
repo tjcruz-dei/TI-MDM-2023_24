@@ -2,7 +2,7 @@ import processing.serial.*;
 
 ball b;
 Serial myPort;
-char cmd;
+
 
 void setup(){
   size(1024,1024);
@@ -20,12 +20,11 @@ void draw(){
   b.move();
   b.show();
   b.collide();
-  cmd=0;
 }
 
 void serialEvent(Serial myPort) {
       try {
-           cmd = (char) myPort.read();  
+           char cmd = (char) myPort.read();  
            b.steer(cmd);
       }
       catch (Exception e) {
