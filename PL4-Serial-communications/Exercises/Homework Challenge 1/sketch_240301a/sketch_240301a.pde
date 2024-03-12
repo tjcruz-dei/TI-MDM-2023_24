@@ -1,15 +1,3 @@
-/**
- * Tecnologias de Interface
- * Universidade de Coimbra
- * MSc in Design and Multimedia
- *
- * Author: Tiago Cruz
- * Week 4
- * Homework challenge 1
- *
- * @since:   02–03–2024
- */
- 
 import processing.serial.*;
 
 ball b;
@@ -19,7 +7,7 @@ char cmd;
 void setup(){
   size(1024,1024);
   println(Serial.list());
-  String portName = Serial.list()[2]; //choose the right serial port
+  String portName = Serial.list()[1]; //choose the right serial port
   myPort = new Serial(this, portName, 9600);
   //myPort.bufferUntil('\n');
   b=new ball(width/2,height/2,20);
@@ -29,7 +17,6 @@ void setup(){
 void draw(){
   background(255);
   
-  b.steer(cmd);
   b.move();
   b.show();
   b.collide();
@@ -39,7 +26,7 @@ void draw(){
 void serialEvent(Serial myPort) {
       try {
            cmd = (char) myPort.read();  
-           println(cmd);
+           b.steer(cmd);
       }
       catch (Exception e) {
             e.printStackTrace(); 
@@ -47,7 +34,7 @@ void serialEvent(Serial myPort) {
 }
 
 void keyPressed() {
-  cmd=key;
+  b.steer(key);
 }
 
 class ball{
@@ -68,8 +55,7 @@ class ball{
     
     void steer(char cmd){
       if (cmd=='L') dir.rotate(radians(-2));
-      else if (cmd=='R') dir.rotate(radians(2));
-      println(degrees(dir.heading()));
+      else if (cmd=='R') dir.rotate(radians(2));;
     }
     
     void move(){
