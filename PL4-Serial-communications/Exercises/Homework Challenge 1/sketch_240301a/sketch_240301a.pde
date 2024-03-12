@@ -53,8 +53,8 @@ class ball{
     }
     
     void steer(char cmd){
-      if (cmd=='L') dir.rotate(radians(-2));
-      else if (cmd=='R') dir.rotate(radians(2));;
+      if (cmd=='L') dir.rotate(radians(-0.2));
+      else if (cmd=='R') dir.rotate(radians(0.2));;
     }
     
     void move(){
