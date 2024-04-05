@@ -35,7 +35,7 @@ void loop() {
    duration = pulseIn(echoPin, HIGH,30000);
    
    //Calculate the distance (in cm) based on the speed of sound.
-   distance = duration/58.2;
+   distance = (duration*.0343)/2;
 
   // map the sensor values to a wide range of pitches
   int pitch = map(distance, minimumRange, maximumRange, 50, 4000);

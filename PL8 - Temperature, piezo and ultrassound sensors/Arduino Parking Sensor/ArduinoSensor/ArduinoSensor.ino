@@ -46,7 +46,7 @@ void loop() {
    duration = pulseIn(echoPin, HIGH,50000);
    
    //Calculate the distance (in cm) based on the speed of sound.
-   distance = duration/58.2;
+   distance = (duration*.0343)/2;
  
    if ((distance >= maximumRange) || (distance <= minimumRange)){
       /* Out of Range */
