@@ -5,13 +5,12 @@
  *
  */
 
-
-
 #define echoPin 7 // Echo Pin
 #define trigPin 8 // Trigger Pin
 #define LEDPin 13
 
-long duration, distance; // Duration used to calculate distance
+long duration; 
+float distance; // Duration used to calculate distance
 
 void setup() {
  Serial.begin (9600);
@@ -35,7 +34,7 @@ void loop() {
  duration = pulseIn(echoPin, HIGH,200000);
 
  //Calculate the distance (in cm) based on the speed of sound.
- distance = (duration*0.034)/2; // or duration/29/2
+ distance = (duration*0.034)/2; 
 
 Serial.println(distance);
 
