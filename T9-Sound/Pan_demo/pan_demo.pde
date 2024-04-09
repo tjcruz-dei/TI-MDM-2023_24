@@ -14,7 +14,7 @@ public void setup() {
   stroke(255);
 
   // Load and play a soundfile and loop it.
-  soundF = new SoundFile(this, "Muppets_mono.mp3");
+  soundF = new SoundFile(this, "file.mp3");
   soundF.loop();
   rectMode(CENTER);
 }
