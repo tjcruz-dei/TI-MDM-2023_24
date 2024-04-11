@@ -21,6 +21,7 @@ void setup()
 {
   //If you get an error, remove the P3D
   size(512, 200, P3D);
+  background(0);
   
   println(Sound.list());
 
