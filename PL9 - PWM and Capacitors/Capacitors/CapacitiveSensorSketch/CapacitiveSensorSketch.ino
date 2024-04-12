@@ -9,7 +9,7 @@
  */
 
 
-CapacitiveSensor   cs_7_6 = CapacitiveSensor(9,8);        // 10M resistor between pins 7 & 6, pin 6 is sensor pin, add a wire and or foil if desired
+CapacitiveSensor   cs_7_6 = CapacitiveSensor(7,6);        // 10M resistor between pins 7 & 6, pin 6 is sensor pin, add a wire and or foil if desired
 
 void setup()                    
 {
