@@ -63,7 +63,7 @@ void draw() {
           red(track), green(track), blue(track));
 
         if (distance < 100) {
-          m.pixels[loc] = color(255-constrain(distance, 0, 255));
+          m.pixels[loc] = color(255-distance);
         }
 
         if (distance < min) {
